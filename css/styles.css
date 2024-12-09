@@ -1,0 +1,99 @@
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #e5e5e5;
+    background-color: #1a1a40;
+  }
+  
+  /* Header */
+  header {
+    background-color: #3b3b8c;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1rem;
+    font-style: italic;
+  }
+  
+  /* Navbar */
+  nav {
+    background-color: #3b3b8c;
+  }
+  
+  nav .navbar-nav .nav-link {
+    color: #e5e5e5 !important;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+  
+  nav .navbar-nav .nav-link:hover {
+    background-color: #4b0082;
+    color: #f9f9f9 !important;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 2rem 1rem;
+  }
+  
+  main h2 {
+    color: #9086b6;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  main p {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #3b3b8c;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  
+/* Buttons */
+button, .btn {
+  background-color: #4b8bff; /* Electric blue */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: #4b0082; /* Deep purple hover */
+}
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    main {
+      padding: 3rem 2rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    main {
+      padding: 4rem 3rem;
+    }
+  }
